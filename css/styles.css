@@ -16,6 +16,7 @@ body {
 .list {
     list-style: none;
     padding-left: 0;
+    display: flex;
 }
 
 .bg-dark {
@@ -69,9 +70,39 @@ body {
     line-height: 1.5; /* 120% */
     letter-spacing: 0.4px;
 }
+
+.container {
+    width: 1158px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*END OF GENERAL STYLING*/
 
 /*HEADER STYLING*/
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .d-flex {
+    align-items: center;
+}
+
+.header .list {
+    gap: 40px;
+}
+
+.logo {
+    margin-right: 76px;
+}
+
 .logo-studio-nav {
     color: var(--navyblue);
 }
@@ -101,6 +132,12 @@ body {
 
 /* HERO SECTION STYLING */
 
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
 .hero-text {
     color: var(--white);
     text-align: center;
@@ -116,6 +153,7 @@ body {
     border: none;
     border-radius: 4px;
     color: var(--white);
+    padding: 16px 32px;
 }
 
 .hero-btn:hover {
